@@ -1,0 +1,96 @@
+.rectangle {
+  height: 300px;
+  width: auto;
+  background-color: #555;
+  position: fixed;
+}
+body {
+
+    background: white;
+    background: linear-gradient(rgba(255,0,0,0), #99ddff);
+    font-family: arial;
+
+}
+  #headername {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0000b3
+  }
+  #logo {
+    position: relative;
+    height: 200px;
+    width: auto;
+    opacity: .85;
+  }
+  #search {
+    position: absolute;
+    right: 30px;
+    border-radius: 2px;
+    background-color: #cceeff;
+    font-weight: bold;
+
+  }
+
+#list {
+    list-style-type: none;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    background-color: #0000b3;
+  }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0px 2px 0px 2px;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+  }
+  #foot {
+  background-color: #005580;
+  color: #00111a;
+  text-align: center;
+  font-size: 25px;
+  font-family: inherit;
+  border-style: ridge;
+  border-radius: 5px;
+}
+  #lorem {
+    column-count: 2;
+  }
+  #roboField {
+    border: none;
+        }
+h4 {
+    font-size: 25px;
+    font-family: impact;
+  }
+  #cpu1 {
+    border: none;
+  }
+  #cpu1 p {
+
+    font-family: arial;
+  }
+  #cpu1 h5 {
+    font-family: arial;
+  }
+  form {
+    font-family: arial;
+  }
+  form fieldset {
+    border-style: none;
+  }
+  #contactForm {
+    font-family: inherit;
+  }
+
+}
